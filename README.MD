@@ -19,3 +19,6 @@ We've implemented these simple but efficent safety measures, just in case:
 - Files are always downloaded inside the game's config folder, with no way to escape outside it.
 
 We've also included a way to opt out of this system, by going to config/prominent/live_content.json5 and disabling live content altogether.
+
+# License
+The contents of this repository are All Rights Reserved, Copyright Cinderstone Studios LLC, unless explicitly stated.
