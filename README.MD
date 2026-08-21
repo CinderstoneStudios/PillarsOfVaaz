@@ -16,7 +16,9 @@ We've implemented these simple but efficent safety measures, just in case:
 - Files will only be downloaded by clients if they are of the following formats:
   - .json  .json5  .jsonc  .conf  .toml  .yaml  .properties  .configuration
   - .snbt (Only works for ftbquests folders)
+  - .zip (Only works inside paxi/datapacks and paxi/resourcepacks)
 - Files are always downloaded inside the game's config folder, with no way to escape outside it.
+- Adding files inside the config/yosbr folder and its subfolders is not allowed, to avoid files being able to escape outside the config folder.
 
 We've also included a way to opt out of this system, by going to config/prominent/live_content.json5 and disabling live content altogether.
 
